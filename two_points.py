@@ -1,0 +1,11 @@
+x1_y1 = input()
+numbers_1 = x1_y1.split(' ')
+x1 = float(numbers_1[0])
+y1 = float(numbers_1[1])
+x2_y2 = input()
+numbers_2 = x2_y2.split(' ')
+x2 = float(numbers_2[0])
+y2 = float(numbers_2[1])
+
+distance = ((x2 - x1)**2 + (y2 -y1)**2)** (1/2)
+print(f'{format(distance, ".4f")}')
